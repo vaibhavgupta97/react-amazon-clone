@@ -1,0 +1,137 @@
+.prime{
+display: flex;
+flex-direction: column;
+}
+.prime__img{
+object-fit:cover;
+width: 100%;
+height: 630px;
+}
+.prime__header{
+height: 60px;
+display: flex;
+align-items: center;
+flex-direction: row;
+background-color: #131921;
+position: sticky;
+top: 0;
+z-index: 100;}
+.prime__headerimg{
+width: 150px;
+object-fit: contain;
+margin: 0 28px;
+height:60px;
+}
+.left{
+display: flex;
+justify-self: flex-end;
+margin-left: 950px;
+flex-direction: row;
+align-items: baseline;
+justify-content: space-around;
+}
+.earthlogo{
+color: darkgray;
+font-size: 20px;
+margin-right: 25px;
+}
+svg.MuiSvgIcon-root {
+height: 1.4em;
+}
+.local{
+height: 1.4em;
+}
+.prime__signin{
+color: darkgray;
+margin-left: 10px;
+}
+.mirzapur{
+background-image: url(https://images-na.ssl-images-amazon.com/images/S/pv-target-images/2926c1aabd8819faf18154bfc8292cdf5609944a5e92ade43a5a4d62842d16ea._SX1080_.jpg);
+object-fit:cover;
+width: 100%;
+height: 630px;}
+.about{
+display: block;
+width: 32%;
+height: 30%;
+margin-top: 175px;
+margin-left: 33px;
+}
+.about>h2{
+color: white;
+font-weight: bold;
+font-size: xx-large;
+}
+.about>h3{
+color: white;
+font-weight: lighter;
+font-size: large;
+}
+.b{
+    height:40px;
+    width:105px;
+    font-size: 18px;
+  color: white;
+background-color:rgba(64, 90, 209, 0.884);
+border-radius: 10%;
+}
+.about2{
+    display: block;
+    width: 60%;
+    height: 25%;
+    margin:auto;
+    margin-top: -390px;
+    margin-left: 55px;
+    }
+    .about2>h2{
+
+    color:rgba(256,256,256,.3);
+    font-weight: bold;
+    font-size: 60px;
+    font-weight: 100;
+    }
+    
+.more{
+background-color: white;
+display: flex;
+flex-direction: row;
+justify-content:space-around;
+}
+.inside{
+margin-top: 50px;
+display: block;
+margin-left: 15px;
+text-align: center;
+margin-right: 15px;
+}
+.inside >p{
+font-size: 19px;
+}
+.inside>h2{
+font-size: 30px;
+}
+.prime__footerimg{
+    width: 150px;
+    object-fit: contain;
+    margin:auto;
+    height:52px;
+    margin-bottom: -15px;
+}
+.prime__footer{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    background-color: #131921;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+.prime__footer> p{
+    color: darkgray;
+
+}
+.prime__footer> p>span{
+    color:rgba(40, 40, 247, 0.884);
+  
+}
